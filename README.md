@@ -11,44 +11,44 @@
 > 根据[《生成式人工智能服务管理暂行办法》](http://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm)的要求，请勿对中国地区公众提供一切未经备案的生成式人工智能服务。
 
 
-##美化内容
+## 二开内容
 
-> 本版本二开的是new-api的最新版本，主要进行了页面美化！
-具体美化页面看下方衙门是截图：
+> 本版本是由new-api的最新版本进行的二开！
+### 具体美化页面看下方衙门是截图：
 
 1. 侧边栏美化
 ![image|690x397](https://cdn.linux.do/uploads/default/optimized/3X/e/5/e58a3bc55e684a8e3757d291cb9a154510cfb7cb_2_1035x595.jpeg)
 
 2. 顶栏美化
-![image|690x397](upload://AvBtZxUmbecej0oiUtuxxIUwng.jpeg)
+![image|690x397](https://cdn.linux.do/uploads/default/optimized/3X/0/4/0420879e84faaaf8c101142e8ff40760da6afd42_2_1035x595.jpeg)
 
 3. 日志部分优化，增加下拉式菜单栏
-![image|690x393](upload://jFcdj75XmwH2NJQT8THui2v5WaQ.jpeg)
+![image|690x393](https://cdn.linux.do/uploads/default/optimized/3X/8/9/89d179f7d642df78351668b8537a2c6867f0c490_2_1035x589.jpeg)
 
 4. 登录注册界面美化（注册页面同理）
-![image|690x495](upload://pyffm0zQZHW8cbpqVvf1XpLHSSO.png)
+![image|690x495](https://cdn.linux.do/uploads/default/optimized/3X/b/3/b3155e2cbd8f2d92b2eb21d58e100128daecd6d6_2_1035x742.png)
 
 5. 将关于页面改为活动福利页面
-![image|690x495](upload://ogYqIPL7oHsDzfoHMy84tlUr0GI.jpeg)
-![image|690x495](upload://lxGFjYQZjUDn6cn2RjAZ721SNEJ.jpeg)
+![image|690x495](https://cdn.linux.do/uploads/default/optimized/3X/a/a/aa1f64d43b04cd6d529feeed2be24d44c80000a0_2_1035x742.jpeg)
+![image|690x495](https://cdn.linux.do/uploads/default/optimized/3X/9/6/96fc880685b11a21857d61a7c3d387193b2c9f01_2_1035x742.jpeg)
 
 6. 个人设置（稍微优化了一下ui）
-![image|690x495](upload://sPfYLyEcI4AFNnIzuebm8EijGue.jpeg)
+![image|690x495](https://cdn.linux.do/uploads/default/optimized/3X/c/a/ca082ebd279e5facc6c6d0bb8a49dfeb197fa882_2_1035x742.jpeg)
 
 7. 各种日志页面增加大标题（这里只放一张图，其他同理）
-![image|690x495](upload://i95m6NRruLCMxsojLL6pX7Bfjxt.jpeg)
+![image|690x495](https://cdn.linux.do/uploads/default/optimized/3X/7/f/7f2e1383a25be9afdfa806babed4de120f06459f_2_1035x742.jpeg)
 
 8. 增加suno歌词生成器
-![image|690x397](upload://k4RIXIC8UGwsvhJRiqD59bRvxfz.jpeg)
+![image|690x397](https://cdn.linux.do/uploads/default/optimized/3X/8/c/8cb84f0049a1382115b422e86c4e2d8842c16801_2_1035x595.jpeg)
 
 9. 公告美化
-![image|690x498](upload://4SVKtqp4hsIc4nQMaxcUWmyDRpG.jpeg)
+![image|690x498](https://cdn.linux.do/uploads/default/optimized/3X/2/2/223e51654448712b71372deda2dea1d0e76441b4_2_1035x747.jpeg)
 
 10. 我的令牌页美化
-![image|690x498](upload://tZtUYVZTgwIfsbGFMWYS1qa7ZmQ.jpeg)
+![image|690x498](https://cdn.linux.do/uploads/default/optimized/3X/d/2/d2323ed2dba52edc8d71d01562ec395c956f98e4_2_1035x747.jpeg)
 
 11. 钱包页面美化（图片采用随机二次元图片，保障新鲜感🤭）
-![image|690x498](upload://xkQRtjNZreCrcqL0Mmt5J5OcmhJ.jpeg)
+![image|690x498](https://cdn.linux.do/uploads/default/optimized/3X/e/9/e9a32e1e142afdfdd2445d9378e119ff7c40f283_2_1035x747.jpeg)
 
 
 ## 主要功能

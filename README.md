@@ -155,19 +155,23 @@ docker run --name max-api -d --restart always -p 3000:3000 -e SQL_DSN="root:1234
 
 
 ## 界面截图
-![image](https://github.com/Calcium-Ion/new-api/assets/61247483/ad0e7aae-0203-471c-9716-2d83768927d4)
 
-![image](https://github.com/Calcium-Ion/new-api/assets/61247483/d1ac216e-0804-4105-9fdc-66b35022d861)
+![image](https://github.com/z3042653234/MAX-API/assets/130765854/06eb5e34-789a-4fed-a28f-8e0ec05bc05c)
+![image](https://github.com/z3042653234/MAX-API/assets/130765854/eb571605-8738-46e0-8d3d-4924c9b6cd80)
+![image](https://github.com/z3042653234/MAX-API/assets/130765854/68d7103b-8783-4049-8be4-bd986984ccd6)
+![image](https://github.com/z3042653234/MAX-API/assets/130765854/0f2930e7-3e5d-40ff-8ec7-57394f8d52fa)
+![image](https://github.com/z3042653234/MAX-API/assets/130765854/6731e971-a367-43f9-a9d1-5a194fb0f937)
+![image](https://github.com/z3042653234/MAX-API/assets/130765854/2f25c37b-bc51-4551-b7a9-374bcc7a00db)
+![image](https://github.com/z3042653234/MAX-API/assets/130765854/c33173ca-5248-402b-9540-2d1a36b17f39)
+![image](https://github.com/z3042653234/MAX-API/assets/130765854/f955ac79-02e3-4f4b-aa1b-bea64b090d26)
+![image](https://github.com/z3042653234/MAX-API/assets/130765854/a0cd41d7-7574-4608-adcf-daae436b6b5f)
 
-![image](https://github.com/Calcium-Ion/new-api/assets/61247483/3ca0b282-00ff-4c96-bf9d-e29ef615c605)  
-![image](https://github.com/Calcium-Ion/new-api/assets/61247483/f4f40ed4-8ccb-43d7-a580-90677827646d)  
-![image](https://github.com/Calcium-Ion/new-api/assets/61247483/90d7d763-6a77-4b36-9f76-2bb30f18583d)
-![image](https://github.com/Calcium-Ion/new-api/assets/61247483/e414228a-3c35-429a-b298-6451d76d9032)
+
 夜间模式  
-![image](https://github.com/Calcium-Ion/new-api/assets/61247483/1c66b593-bb9e-4757-9720-ff2759539242)
 
-![image](https://github.com/Calcium-Ion/new-api/assets/61247483/5b3228e8-2556-44f7-97d6-4f8d8ee6effa)  
-![image](https://github.com/Calcium-Ion/new-api/assets/61247483/af9a07ee-5101-4b3d-8bd9-ae21a4fd7e9e)
+![image](https://github.com/z3042653234/MAX-API/assets/130765854/6a87718c-1994-4c6c-b86b-349dcb5ac02a)
+![image](https://github.com/z3042653234/MAX-API/assets/130765854/b23469b1-cadc-4ebc-8f56-67cded96a0fa)
+
 
 ## 相关项目
 - [New API](https://github.com/Calcium-Ion/new-api)：原版项目

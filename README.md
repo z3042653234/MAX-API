@@ -1,8 +1,8 @@
 
-# New API
+# MAX API
 
 > [!NOTE]
-> 本项目为开源项目，在[One API](https://github.com/songquanpeng/one-api)的基础上进行二次开发，感谢原作者的无私奉献。 
+> 本项目为开源项目，在[New API](https://github.com/Calcium-Ion/new-api/)的基础上进行二次开发，感谢原作者的无私奉献。 
 > 使用者必须在遵循 OpenAI 的[使用条款](https://openai.com/policies/terms-of-use)以及**法律法规**的情况下使用，不得用于非法用途。
 
 
@@ -10,12 +10,7 @@
 > 本项目为个人学习使用，不保证稳定性，且不提供任何技术支持，使用者必须在遵循 OpenAI 的使用条款以及法律法规的情况下使用，不得用于非法用途。  
 > 根据[《生成式人工智能服务管理暂行办法》](http://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm)的要求，请勿对中国地区公众提供一切未经备案的生成式人工智能服务。
 
-> [!NOTE]
-> 最新版Docker镜像 calciumion/new-api:latest  
-> 更新指令 docker run --rm -v /var/run/docker.sock:/var/run/docker.sock containrrr/watchtower -cR
-
-## 主要变更
-此分叉版本的主要变更如下：
+## 主要功能
 
 1. 全新的UI界面（部分界面还待更新）
 2. 添加[Midjourney-Proxy(Plus)](https://github.com/novicezk/midjourney-proxy)接口的支持，[对接文档](Midjourney.md)，支持的接口如下：
@@ -98,11 +93,11 @@ docker run --name new-api -d --restart always -p 3000:3000 -e SQL_DSN="root:1234
 ### 使用宝塔面板Docker功能部署
 ```shell
 # 使用 SQLite 的部署命令：
-docker run --name new-api -d --restart always -p 3000:3000 -e TZ=Asia/Shanghai -v /www/wwwroot/new-api:/data calciumion/new-api:latest
+docker run --name max-api -d --restart always -p 3000:3000 -e TZ=Asia/Shanghai -v /home/ubuntu/data/max-api:/data registry.cn-hangzhou.aliyuncs.com/pochacco/max-api:v1.1
 # 使用 MySQL 的部署命令，在上面的基础上添加 `-e SQL_DSN="root:123456@tcp(localhost:3306)/oneapi"`，请自行修改数据库连接参数。
 # 例如：
 # 注意：数据库要开启远程访问，并且只允许服务器IP访问
-docker run --name new-api -d --restart always -p 3000:3000 -e SQL_DSN="root:123456@tcp(宝塔的服务器地址:宝塔数据库端口)/宝塔数据库名称" -e TZ=Asia/Shanghai -v /www/wwwroot/new-api:/data calciumion/new-api:latest
+docker run --name max-api -d --restart always -p 3000:3000 -e SQL_DSN="root:123456@tcp(宝塔的服务器地址:宝塔数据库端口)/宝塔数据库名称" -e TZ=Asia/Shanghai -v /www/wwwroot/max-api:/data registry.cn-hangzhou.aliyuncs.com/pochacco/max-api:v1.1
 # 注意：数据库要开启远程访问，并且只允许服务器IP访问
 ```
 ### 默认账号密码

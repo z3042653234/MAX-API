@@ -150,8 +150,9 @@ docker run --name max-api -d --restart always -p 3000:3000 -e SQL_DSN="root:1234
 ## Suno接口设置文档
 [对接文档](Suno.md)
 
-## 交流群
-<img src="https://github.com/Calcium-Ion/new-api/assets/61247483/de536a8a-0161-47a7-a0a2-66ef6de81266" width="300">
+## 交流群!
+![image](https://github.com/z3042653234/MAX-API/assets/130765854/074e4001-e78a-4eb7-a8fc-cef1d5feab23)
+
 
 ## 界面截图
 ![image](https://github.com/Calcium-Ion/new-api/assets/61247483/ad0e7aae-0203-471c-9716-2d83768927d4)

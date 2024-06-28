@@ -17,7 +17,7 @@
 具体美化页面看下方衙门是截图：
 
 1. 侧边栏美化
-![image|690x397](upload://wKBvhFYzZhrnDI4dZKiFPEguNzZ.jpeg)
+![image|690x397](https://cdn.linux.do/uploads/default/optimized/3X/e/5/e58a3bc55e684a8e3757d291cb9a154510cfb7cb_2_1035x595.jpeg)
 
 2. 顶栏美化
 ![image|690x397](upload://AvBtZxUmbecej0oiUtuxxIUwng.jpeg)

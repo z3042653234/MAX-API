@@ -1,0 +1,65 @@
+{
+  "name": "react-template",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@douyinfe/semi-icons": "^2.46.1",
+    "@douyinfe/semi-icons-lab": "^2.60.0",
+    "@douyinfe/semi-ui": "^2.55.3",
+    "@visactor/react-vchart": "~1.8.8",
+    "@visactor/vchart": "~1.8.8",
+    "@visactor/vchart-semi-theme": "~1.8.8",
+    "axios": "^0.27.2",
+    "dayjs": "^1.11.11",
+    "history": "^5.3.0",
+    "marked": "^4.1.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-dropzone": "^14.2.3",
+    "react-fireworks": "^1.0.4",
+    "react-router-dom": "^6.3.0",
+    "react-telegram-login": "^1.1.2",
+    "react-toastify": "^9.0.8",
+    "react-turnstile": "^1.0.5",
+    "semantic-ui-offline": "^2.5.0",
+    "semantic-ui-react": "^2.1.3"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "prettier . --check",
+    "lint:fix": "prettier . --write",
+    "preview": "vite preview"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@so1ve/prettier-config": "^2.0.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "prettier": "^3.0.0",
+    "typescript": "4.4.2",
+    "vite": "^5.2.0"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "jsxSingleQuote": true
+  },
+  "proxy": "http://localhost:3000"
+}

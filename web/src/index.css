@@ -1,0 +1,165 @@
+body {
+  margin: 0;
+  padding-top: 55px;
+  overflow-y: scroll;
+  font-family: Lato, 'Helvetica Neue', Arial, Helvetica, 'Microsoft YaHei',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scrollbar-width: none;
+  color: var(--semi-color-text-0) !important;
+  background-color: var(--semi-color-bg-0) !important;
+  height: 100%;
+  border-radius: 10px;
+}
+
+#root {
+  height: 100%;
+}
+
+@media only screen and (max-width: 767px) {
+  .semi-table-tbody,
+  .semi-table-row,
+  .semi-table-row-cell {
+    display: block !important;
+    width: auto !important;
+    padding: 2px !important;
+  }
+  .semi-table-row-cell {
+    border-bottom: 0 !important;
+  }
+  .semi-table-tbody > .semi-table-row {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  .semi-space {
+    /*display: block!important;*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 3px;
+    column-gap: 10px;
+  }
+}
+
+.semi-table-tbody > .semi-table-row > .semi-table-row-cell {
+  padding: 16px 14px;
+}
+
+.channel-table {
+  .semi-table-tbody > .semi-table-row > .semi-table-row-cell {
+    padding: 16px 8px;
+  }
+}
+
+.semi-layout {
+  height: 100%;
+}
+
+.tableShow {
+  display: revert;
+}
+
+.tableHiddle {
+  display: none !important;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.semi-navigation-vertical {
+  /*display: flex;*/
+  /*flex-direction: column;*/
+}
+
+.semi-navigation-item {
+  margin-bottom: 0;
+}
+
+.semi-navigation-vertical {
+  /*flex: 0 0 auto;*/
+  /*display: flex;*/
+  /*flex-direction: column;*/
+  /*width: 100%;*/
+  height: 100%;
+  overflow: hidden;
+}
+
+.main-content {
+  padding: 4px;
+  height: 100%;
+}
+
+.small-icon .icon {
+  font-size: 1em !important;
+}
+
+.custom-footer {
+  font-size: 1.1em;
+}
+
+@media only screen and (max-width: 600px) {
+  .hide-on-mobile {
+    display: none !important;
+  }
+}
+
+
+.custom-color {
+  color: rgb(221, 160, 221); /* Tomato 红色 */
+}
+
+.custom-color-1 {
+   color: rgb(97 210 255);
+}
+
+.IconMusic{
+   color: rgb(58 220 0);
+}
+
+.IconHelpCircle{
+   color: rgb(68 218 89 / 62%);
+}
+
+.IconRadio{
+   color: rgb(76, 195, 250);
+}
+
+.IconGift {
+  color: rgb(238, 44, 44);
+}
+
+.IconUser {
+  color: rgb(76, 195, 250);
+}
+
+.IconUserAdd {
+  color: rgb(59, 206, 74);
+}
+
+.sub-menu-icon {
+  margin-left: 20px;
+}
+
+.custom-divider {
+    margin: 1px 0;
+    border-bottom: 1px solid var(--semi-color-border);
+    color: var(--semi-color-text-0);
+    box-sizing: border-box;
+}
+
+/* Home.css */
+.semi-modal-header {
+  font-size: 24px !important;
+  color: #6262a0 !important;
+  text-align: center !important;
+}
+
+.semi-modal-body {
+  line-height: 36px !important;
+}
